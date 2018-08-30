@@ -1,0 +1,26 @@
+<suite name="SuiteName" parallel="tests">
+	
+	
+	<test name="LoginTest" allow-return-values="true">
+		<classes>
+			<class name="com.qtpselenium.zoho.project.testcases.LoginTest" />
+		</classes>
+	</test>
+	
+	<test name="LeadTest" allow-return-values="true">
+		<classes>
+			<class name="com.qtpselenium.zoho.project.testcases.LeadTest" />
+		</classes>
+	</test>
+	
+	<test name="DealTest" allow-return-values="true">
+		<classes>
+			<class name="com.qtpselenium.zoho.project.testcases.DealTest" />
+		</classes>
+	</test>
+	
+	
+	
+	
+</suite>
+
